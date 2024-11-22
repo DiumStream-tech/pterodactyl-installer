@@ -52,7 +52,7 @@ export SUPPORTED=false
 export PANEL_DL_URL="https://github.com/pterodactyl/panel/releases/download/v1.11.7/panel.tar.gz"
 export WINGS_DL_BASE_URL="https://github.com/pterodactyl/wings/releases/latest/download/wings_linux_"
 export MARIADB_URL="https://downloads.mariadb.com/MariaDB/mariadb_repo_setup"
-export GITHUB_BASE_URL=${GITHUB_BASE_URL:-"https://raw.githubusercontent.com/pterodactyl-installer/pterodactyl-installer"}
+export GITHUB_BASE_URL=${GITHUB_BASE_URL:-"https://raw.githubusercontent.com/DiumStream-tech/pterodactyl-installer"}
 export GITHUB_URL="$GITHUB_BASE_URL/$GITHUB_SOURCE"
 
 # Colors
@@ -124,8 +124,8 @@ welcome() {
   print_brake 70
   output "Pterodactyl panel installation script @ $SCRIPT_RELEASE"
   output ""
-  output "Copyright (C) 2018 - 2024, Vilhelm Prytz, <vilhelm@prytznet.se>"
-  output "https://github.com/pterodactyl-installer/pterodactyl-installer"
+  output "Copyright (C) 2024 - 2024, DiumStream, <pro.evann.s.p@gmail.com>"
+  output "https://github.com/DiumStream-tech/pterodactyl-installer"
   output ""
   output "This script is not associated with the official Pterodactyl Project."
   output ""
